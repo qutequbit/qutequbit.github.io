@@ -1,9 +1,9 @@
-*{
-    background-color: crimson;
-    margin: 1px;
-}
 .intro{
-    display: block;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 25px;
+    background-color: aqua;
+    display: flex;
     justify-content: center;
     font-family: 'Times New Roman', Times, serif;
 }
