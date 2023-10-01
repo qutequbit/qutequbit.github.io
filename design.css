@@ -1,0 +1,133 @@
+* {
+    background-color: pink;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Lucida Console", monospace;
+    /* Use Lucida Console font */
+}
+
+.title {
+    font-size: 50px;
+    margin: 20px;
+}
+
+.nav {
+    margin: 20px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+    /* Inherit the color from the parent element (white in this case) */
+}
+
+a:hover {
+    text-decoration: underline;
+    /* Add underline on hover if desired */
+    color: inherit;
+    /* Inherit the color on hover */
+}
+
+.intro {
+
+    padding: 50px;
+    display: flex;
+    /* Use flexbox to create a flexible container */
+    justify-content: center;
+    /* Horizontally center the content */
+    align-items: center;
+    /* Vertically center the content */
+    flex-direction: column;
+}
+
+.main img {
+    padding: 2px;
+    border: 2px solid black;
+    border-radius: 100%;
+}
+
+.intro-line {
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.logo {
+    text-align: center;
+}
+
+.project {
+    background-color: white;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.row {
+    width: 25%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.card {
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.card_large,
+.card_medium,
+.card_small {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_large img {
+    height: 500px;
+    margin: 5px;
+    padding: 0px;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.card_medium img {
+    height: 250px;
+    margin: 5px;
+    padding: 0px;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.card_small img {
+    height: 100px;
+    margin: 5px;
+    padding: 0px;
+    width: 100%;
+    border-radius: 25px;
+}
